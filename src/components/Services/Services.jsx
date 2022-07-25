@@ -6,7 +6,7 @@ import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import Resume from './resume.pdf';
+import Resume from './Resume-Frans-Imanuel.pdf';
 
 const Services = () => {
   // context
@@ -26,11 +26,11 @@ const Services = () => {
         {/* dark mode */}
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
         <span>services</span>
-        <spane>
-          Lorem ispum is simpley dummy text of printing of printing Lorem
+        <span>
+          Passionately learning tech to create better me
           <br />
-          ispum is simpley dummy text of printing
-        </spane>
+          Interested in any tech related
+        </span>
         <a href={Resume} download>
           <button className="button s-button">Download CV</button>
         </a>
@@ -46,8 +46,8 @@ const Services = () => {
         >
           <Card
             emoji={HeartEmoji}
-            heading={"Design"}
-            detail={"Figma, Sketch, Photoshop, Adobe Illustrator, Adobe xd"}
+            heading={"Backend Engineer"}
+            detail={"Golang Gin, ExpressJS, Laravel, Docker, etc"}
           />
         </motion.div>
         {/* second card */}
@@ -59,7 +59,7 @@ const Services = () => {
           <Card
             emoji={Glasses}
             heading={"Developer"}
-            detail={"Html, Css, JavaScript, React, Nodejs, Express"}
+            detail={"Html, Css, JavaScript, React, Nodejs, Bootstrap"}
           />
         </motion.div>
         {/* 3rd */}
@@ -70,9 +70,9 @@ const Services = () => {
         >
           <Card
             emoji={Humble}
-            heading={"UI/UX"}
+            heading={"Database"}
             detail={
-              "Lorem ispum dummy text are usually use in section where we need some random text"
+              "mySQL, PostgreSQL"
             }
             color="rgba(252, 166, 31, 0.45)"
           />

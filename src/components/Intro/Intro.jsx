@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import "./Intro.css";
 import Vector1 from "../../img/Vector1.png";
 import Vector2 from "../../img/Vector2.png";
-import boy from "../../img/boy.png";
+import boy from "../../img/PORTO.png";
 import glassesimoji from "../../img/glassesimoji.png";
 import thumbup from "../../img/thumbup.png";
 import crown from "../../img/crown.png";
@@ -28,10 +28,9 @@ const Intro = () => {
         <div className="i-name">
           {/* yahan change hy darkmode ka */}
           <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
-          <span>Andrew Thomas</span>
+          <span>Frans Imanuel</span>
           <span>
-            Frontend Developer with high level of experience in web designing
-            and development, producting the Quality work
+            Freshgraduate computer science student that have passion learning about tech or software engineer related topics
           </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>
@@ -39,9 +38,15 @@ const Intro = () => {
         </Link>
         {/* social icons */}
         <div className="i-icons">
-          <img src={Github} alt="" />
-          <img src={LinkedIn} alt="" />
-          <img src={Instagram} alt="" />
+          <a href="https://github.com/fransImanuel" target="_blank" rel="noopener">
+            <img src={Github} alt="" />
+          </a>
+          <a href="https://www.linkedin.com/in/frans-imanuel-567154190/" target="_blank" rel="noopener">
+            <img src={LinkedIn} alt="" />
+          </a>
+          <a href="https://www.instagram.com/ima.nuelf/?hl=en" target="_blank" rel="noopener">
+            <img src={Instagram} alt="" />
+          </a>
         </div>
       </div>
       {/* right image side */}
@@ -75,7 +80,7 @@ const Intro = () => {
           className="floating-div"
         >
           {/* floatinDiv mein change hy dark mode ka */}
-          <FloatinDiv img={thumbup} text1="Best Design" text2="Award" />
+          <FloatinDiv img={thumbup} text1="Software" text2="Engineer" />
         </motion.div>
 
         <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>
